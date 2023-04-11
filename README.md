@@ -10,7 +10,7 @@ gantt
     axisFormat %e%b
     todayMarker on
     %%excludes    weekends
-    tickInterval 3week
+    tickInterval 2week
     %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
 
 
@@ -25,18 +25,8 @@ gantt
     Practice for Viz team       :    des16, after des15, 4w
     Q&A                         :    des17, after des16, 1w
     
-
-    section DAGs(Airflow)
-    Env Set-up                  :    des21, after des17, 1w
-    KT from GDA                 :    des22, after des21, 1w
-    dev & Test Env              :    des23, after des22, 1w
-    Document for KT             :    des24, after des23, 1w
-    KT to Viz team              :    des25, after des24, 1w
-    Practice for Viz team       :    des26, after des25, 4w
-    Q&A                         :    des27, after des26, 1w
-
     section S3 bucket(Terraform)
-    Env Set-up                  :    des31, after des27, 1w
+    Env Set-up                  :    des31, after des17, 1w
     KT from GDA                 :    des32, after des31, 1w
     dev & Test Env              :    des33, after des32, 1w
     Document for KT             :    des34, after des33, 1w
@@ -44,8 +34,17 @@ gantt
     Practice for Viz team       :    des36, after des35, 4w
     Q&A                         :    des37, after des36, 1w
 
+    section DAGs(Airflow)
+    Env Set-up                  :    des21, after des37, 1w
+    KT from GDA                 :    des22, after des21, 1w
+    dev & Test Env              :    des23, after des22, 1w
+    Document for KT             :    des24, after des23, 1w
+    KT to Viz team              :    des25, after des24, 1w
+    Practice for Viz team       :    des26, after des25, 4w
+    Q&A                         :    des27, after des26, 1w
+
     section Views(dbt)
-    Env Set-up                  :    des41, after des37, 1w
+    Env Set-up                  :    des41, after des27, 1w
     KT from GDA                 :    des42, after des41, 1w
     dev & Test Env              :    des43, after des42, 1w
     Document for KT             :    des44, after des43, 1w
