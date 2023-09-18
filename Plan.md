@@ -17,7 +17,8 @@ gantt
     section A ridiculously <br> long section <br> name
 
     section DAGs
-    GDA Platform Set-up         :    des11, after m0, 1w
+    Stage & Landing Table scripts      : done,des10
+    GDA Platform Prevision access    :  active, crit, des11, 1w
     dev & Test Env              :    des12, after des11, 1w
     Document for KT             :    des13, after des12, 1w
     KT to Viz team              :    des14, after des13, 1w
@@ -34,7 +35,7 @@ gantt
     Q&A                         :    des47, after des46, 1w
 
     section Milestone
-    Initial milestone           : milestone, m0, 2023-09-18,2min
+    
     GDA Platform milestone      : milestone, m1, after des11, 2min
     Unload data milestone       : milestone, m2, after des12, 2min
     Document milestone          : milestone, m3, after des13, 2min
