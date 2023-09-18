@@ -17,7 +17,8 @@ gantt
     section A ridiculously <br> long section <br> name
 
     section DAGs
-    S3 bucket created: milestone, done, des10, 2023-08-21, 2023-08-30
+    S3 bucket created: milestone, done, des09, 2023-08-21, 2023-08-30
+    Stage & Landing Table created      : desc10, after des09,1w
     GDA Platform Prevision access    :  des11, after m0, 1w
     dev & Test Env              :    des12, after des11, 1w
     Document for KT             :    des13, after des12, 1w
