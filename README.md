@@ -27,12 +27,12 @@ gantt
     
     section S3 bucket(Terraform)
     Env Set-up                  :    done,des31, after des17, 1w
-    KT from GDA                 :    des32, after des31, 1w
-    dev & Test Env              :    des33, after des32, 1w
-    Document for KT             :    des34, after des33, 1w
-    KT to Viz team              :    des35, after des34, 1w
-    Practice for Viz team       :    des36, after des35, 4w
-    Q&A                         :    des37, after des36, 1w
+    KT from GDA                 :    done,des32, after des31, 1w
+    dev & Test Env              :    done,des33, after des32, 1w
+    Document for KT             :    done,des34, after des33, 1w
+    KT to Viz team              :    done,des35, after des34, 1w
+    Practice for Viz team       :    done,des36, after des35, 4w
+    Q&A                         :    done,des37, after des36, 1w
 
     section DAGs(Airflow)
     Env Set-up                  :    des21, after des37, 1w
