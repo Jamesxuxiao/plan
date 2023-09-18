@@ -35,7 +35,7 @@ gantt
     Q&A                         :    des47, after des46, 1w
 
     section Milestone
-    Initial milestone           :milestone, m0, after des10, 2min
+    Initial milestone           : milestone, m0, 2023-09-18,2min
     GDA Platform milestone      : milestone, m1, after des11, 2min
     Unload data milestone       : milestone, m2, after des12, 2min
     Document milestone          : milestone, m3, after des13, 2min
