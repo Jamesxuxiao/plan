@@ -19,7 +19,7 @@ gantt
     section DAGs
     S3 bucket created: milestone, done, des09, 2023-08-01, 2023-08-30
     Stage & Landing Table created      : done, desc10, after des09,1w
-    GDA Platform Prevision access    : active,  des11, after des10, 1w
+    GDA Platform Prevision access    : active,crit,   des11, after des10, 1w
     dev & Test Env              :    des12, after des11, 1w
     Document for KT             :    des13, after des12, 1w
     KT to Viz team              :    des14, after des13, 1w
