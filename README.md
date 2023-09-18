@@ -26,13 +26,13 @@ gantt
     Q&A                         :    des17, after des16, 1w
     
     section S3 bucket(Terraform)
-    Env Set-up                  :    des31, after des17, 1w
-    KT from GDA                 :    des32, after des31, 1w
-    dev & Test Env              :    des33, after des32, 1w
-    Document for KT             :    des34, after des33, 1w
-    KT to Viz team              :    des35, after des34, 1w
-    Practice for Viz team       :    des36, after des35, 4w
-    Q&A                         :    des37, after des36, 1w
+    Env Set-up                  :    des31, done, after des17, 1w
+    KT from GDA                 :    des32, done,after des31, 1w
+    dev & Test Env              :    des33, done,after des32, 1w
+    Document for KT             :    des34, done,after des33, 1w
+    KT to Viz team              :    des35, done,after des34, 1w
+    Practice for Viz team       :    des36, done,after des35, 4w
+    Q&A                         :    des37, done,after des36, 1w
 
     section DAGs(Airflow)
     Env Set-up                  :    des21, after des37, 1w
