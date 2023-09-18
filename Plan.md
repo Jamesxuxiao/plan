@@ -25,7 +25,7 @@ gantt
     Q&A                         :    des16, after des15, 4w
 
     section Milestone
-    GDA Platform milestone      : milestone, m0, 2023-03-27,2min
+    GDA Platform milestone      : milestone, m0, 2023-09-18,2min
     Unload data milestone       : milestone, m1, after des12, 2min
     Document milestone          : milestone, m2, after des13, 2min
     KT milestone                : milestone, m3, after des14, 2min
