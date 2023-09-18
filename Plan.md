@@ -18,7 +18,7 @@ gantt
 
     section DAGs
     Stage & Landing Table scripts      : done,des10
-    GDA Platform Prevision access    :  active, crit, des11, 1w
+    GDA Platform Prevision access    :  active, crit,after des10, 1w
     dev & Test Env              :    des12, after des11, 1w
     Document for KT             :    des13, after des12, 1w
     KT to Viz team              :    des14, after des13, 1w
