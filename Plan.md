@@ -18,7 +18,7 @@ gantt
 
     section DAGs
 
-    GDA Platform Prevision access    :  des11 after des10,m0, 1w
+    GDA Platform Prevision access    :  des11 after m0, 1w
     dev & Test Env              :    des12, after des11, 1w
     Document for KT             :    des13, after des12, 1w
     KT to Viz team              :    des14, after des13, 1w
