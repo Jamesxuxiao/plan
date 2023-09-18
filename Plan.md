@@ -33,7 +33,8 @@ gantt
     Document for KT             :    des44, after des43, 1w
     KT to Viz team              :    milestone,des45, after des44, 1w
     Practice for Viz team       :    des46, after des45, 1w
-    Q&A                         :    des47, after des46, 1w
+    Final Q&A                         :    milestone,crit, des47, after des46, 1w
+
 
 
 ```
