@@ -22,14 +22,14 @@ gantt
     Document for KT             :    des13, after des12, 1w
     KT to Viz team              :    des14, after des13, 1w
     Practice for Viz team       :    des15, after des14, 1w
-    Q&A                         :    des16, after des15, 4w
+    Q&A                         :    des16, after des15, 1w
 
     section Milestone
     Initial milestone           : milestone, m0, 2023-09-18,2min
-    GDA Platform milestone      : milestone, m1, after des12, 2min
-    Unload data milestone       : milestone, m2, after des13, 2min
-    Document milestone          : milestone, m3, after des14, 2min
-    KT milestone                : milestone, m5, after des16, 2min
+    GDA Platform milestone      : milestone, m1, after des11, 2min
+    Unload data milestone       : milestone, m2, after des12, 2min
+    Document milestone          : milestone, m3, after des13, 2min
+    KT milestone                : milestone, m5, after des14, 2min
 ```
 <div class="x-scrollable">
 <div style="width: 1800px;">
