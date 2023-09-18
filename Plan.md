@@ -10,7 +10,7 @@ gantt
     axisFormat %e%b
     todayMarker on
     %%excludes    weekends
-    tickInterval 2week
+    tickInterval 1week
     %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
 
 
