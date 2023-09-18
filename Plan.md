@@ -6,7 +6,7 @@
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
-    title       Data Viz GDA Demo Plan
+    title       GDA Platform Demo Plan for Data Viz Team
     axisFormat %e%b
     todayMarker on
     %%excludes    weekends
